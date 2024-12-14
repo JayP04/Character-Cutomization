@@ -65,13 +65,6 @@ VI - Valid are the only strings which obeys the strucuture of the machine and is
 3. `M MF3 MH4 B MF1 MH2 HCM5` — Male → Face 3 → Hair 4 → Back → Face 1 → Hair 2 → Hair Color 5 → Final.
 4. `F FF1 FH3 B FF3 FH1 HCF4` — Female → Face 1 → Hair 3 → Back → Face 3 → Hair 1 → Hair Color 4 → Final.
 
-**Edge Cases**
-
-1. `M B` — Invalid as no selection was made before backtracking.
-2. `F FF2 FH4 HCF3 B B B M` — Invalid as gender cannot be changed after selection.
-3. `M MF2 MH2` — Invalid as it does not end with a hair color.
-4. `F FF1 FH1 HCF5 B` — Invalid as no backtracking is allowed from the final state.
-
 ---
 
 **Part 2 - Grammar**
