@@ -27,18 +27,25 @@ The customization process starts at the initial state, where users choose a gend
 **Rules**:
 
 I - Users will have to follow a strict sequence of the progression, which is as follows - Face → Hair → Hair Color.
+
 II - NO users will be allowed to go further into the machine if intial steps are not done (i.e. state of choosing gender)
+
 III - For the users to use Backtraking, they should use sign 'B' to procedd.
+
 IV - If the usage of B is done in an invalid/incomplete string, it simply will reject the string.
+
          i) Users should understand the usage of B from the example strings to ensure correct usage of B. 
         ii) B shall be used multiple times in a string, until unless its not followed by or after a B.
+        
 V  - Users cannot go further back from the start state for obvious reasons, but user shall also not be able to go back once reached final state (q7). 
+
 VI - Valid are the only strings which obeys the strucuture of the machine and is indeed complete.
+
+
 
 **Alphabets in this language**
 
 - **Gender Selection**: `{M, F}`
-
 - **Male Path**:
   - Face: `{MF1, MF2, MF3}`
   - Hair: `{MH1, MH2, MH3, MH4, MH5}`
